@@ -38,12 +38,15 @@ import img8 from './assets/image-8.jpg';
 import img9 from './assets/image-9.jpg';
 import img10 from './assets/image-10.jpg';
 import img11 from './assets/image-11.jpg';
+import img12 from './assets/image-12.jpg';
+import img13 from './assets/image-13.jpg';
+import img14 from './assets/image-14.jpg';
 
 // LOGO BANK LOKAL (Pastikan file-file ini ada di assets)
 import logoBca from './assets/bca-logo.png';
 import logoSeabank from './assets/seabank-logo.png';
 
-const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11];
+const galleryImages = [img1, img2, img3, img4, img5, img6, img7, img8, img9, img10, img11, img12, img13, img14];
 
 // --- KOMPONEN ANIMASI ---
 const FadeIn = ({ children, delay = 0 }) => (
